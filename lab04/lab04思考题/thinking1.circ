@@ -210,8 +210,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#lab4.2.circ" name="8"/>
-  <lib desc="file#lab4.1.circ" name="9"/>
+  <lib desc="file#C:\Users\starwink\桌面\lab04\lab04code\lab4.2.circ" name="8"/>
+  <lib desc="file#C:\Users\starwink\桌面\lab04\lab04code\lab4.1.circ" name="9"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -340,6 +340,92 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(360,400)" to="(360,410)"/>
     <wire from="(360,400)" to="(590,400)"/>
     <wire from="(250,260)" to="(330,260)"/>
+    <comp lib="8" loc="(410,430)" name="main"/>
+    <comp lib="0" loc="(480,40)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(250,170)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y0"/>
+    </comp>
+    <comp lib="0" loc="(70,240)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp lib="0" loc="(60,520)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="X1"/>
+    </comp>
+    <comp lib="0" loc="(530,430)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp lib="8" loc="(300,430)" name="main"/>
+    <comp lib="0" loc="(110,70)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="X1"/>
+    </comp>
+    <comp lib="0" loc="(50,240)" name="Pin">
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp lib="0" loc="(610,400)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="2"/>
+      <a name="incoming" val="32"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="bit10" val="0"/>
+      <a name="bit11" val="0"/>
+      <a name="bit12" val="0"/>
+      <a name="bit13" val="0"/>
+      <a name="bit14" val="0"/>
+      <a name="bit15" val="0"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="1"/>
+      <a name="bit25" val="1"/>
+      <a name="bit26" val="1"/>
+      <a name="bit27" val="1"/>
+      <a name="bit28" val="1"/>
+      <a name="bit29" val="1"/>
+      <a name="bit30" val="1"/>
+      <a name="bit31" val="1"/>
+    </comp>
+    <comp lib="8" loc="(190,430)" name="main"/>
+    <comp lib="0" loc="(90,390)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="Z1"/>
+    </comp>
+    <comp lib="0" loc="(140,300)" name="Tunnel">
+      <a name="label" val="Gg"/>
+    </comp>
+    <comp lib="0" loc="(110,430)" name="Tunnel">
+      <a name="label" val="C64"/>
+    </comp>
+    <comp lib="0" loc="(470,100)" name="Tunnel">
+      <a name="label" val="C64"/>
+    </comp>
+    <comp lib="0" loc="(480,70)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(540,530)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="2"/>
@@ -381,175 +467,30 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="width" val="32"/>
       <a name="label" val="Z1"/>
     </comp>
+    <comp lib="0" loc="(470,70)" name="Tunnel">
+      <a name="label" val="Gg"/>
+    </comp>
     <comp lib="8" loc="(510,430)" name="main"/>
     <comp lib="0" loc="(250,70)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="X0"/>
     </comp>
-    <comp lib="8" loc="(190,430)" name="main"/>
-    <comp lib="0" loc="(610,400)" name="Tunnel">
+    <comp lib="0" loc="(550,530)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="width" val="32"/>
-      <a name="label" val="Z0"/>
+      <a name="label" val="Y0"/>
     </comp>
-    <comp lib="8" loc="(410,430)" name="main"/>
-    <comp lib="0" loc="(110,170)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Y1"/>
-    </comp>
-    <comp lib="0" loc="(470,40)" name="Tunnel">
-      <a name="label" val="Pg"/>
-    </comp>
-    <comp lib="0" loc="(50,240)" name="Pin">
-      <a name="label" val="Cin"/>
-    </comp>
-    <comp lib="0" loc="(70,240)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="label" val="Cin"/>
-    </comp>
-    <comp lib="0" loc="(480,70)" name="Pin">
+    <comp lib="0" loc="(350,170)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(470,70)" name="Tunnel">
-      <a name="label" val="Gg"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Z0"/>
     </comp>
     <comp lib="0" loc="(260,70)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="width" val="32"/>
       <a name="label" val="X0"/>
-    </comp>
-    <comp lib="0" loc="(110,430)" name="Tunnel">
-      <a name="label" val="C64"/>
-    </comp>
-    <comp lib="0" loc="(350,70)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="Z1"/>
-    </comp>
-    <comp lib="0" loc="(60,570)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="X0"/>
-    </comp>
-    <comp lib="0" loc="(480,40)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(120,170)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="32"/>
-      <a name="label" val="Y1"/>
-    </comp>
-    <comp lib="9" loc="(380,290)" name="CLU4"/>
-    <comp lib="0" loc="(610,400)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="2"/>
-      <a name="incoming" val="32"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="0"/>
-      <a name="bit9" val="0"/>
-      <a name="bit10" val="0"/>
-      <a name="bit11" val="0"/>
-      <a name="bit12" val="0"/>
-      <a name="bit13" val="0"/>
-      <a name="bit14" val="0"/>
-      <a name="bit15" val="0"/>
-      <a name="bit16" val="1"/>
-      <a name="bit17" val="1"/>
-      <a name="bit18" val="1"/>
-      <a name="bit19" val="1"/>
-      <a name="bit20" val="1"/>
-      <a name="bit21" val="1"/>
-      <a name="bit22" val="1"/>
-      <a name="bit23" val="1"/>
-      <a name="bit24" val="1"/>
-      <a name="bit25" val="1"/>
-      <a name="bit26" val="1"/>
-      <a name="bit27" val="1"/>
-      <a name="bit28" val="1"/>
-      <a name="bit29" val="1"/>
-      <a name="bit30" val="1"/>
-      <a name="bit31" val="1"/>
-    </comp>
-    <comp lib="0" loc="(550,490)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="32"/>
-      <a name="label" val="Y1"/>
-    </comp>
-    <comp lib="8" loc="(300,430)" name="main"/>
-    <comp lib="0" loc="(340,170)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="Z0"/>
-    </comp>
-    <comp lib="0" loc="(120,70)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="32"/>
-      <a name="label" val="X1"/>
-    </comp>
-    <comp lib="0" loc="(540,490)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="2"/>
-      <a name="incoming" val="32"/>
-      <a name="appear" val="center"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="0"/>
-      <a name="bit9" val="0"/>
-      <a name="bit10" val="0"/>
-      <a name="bit11" val="0"/>
-      <a name="bit12" val="0"/>
-      <a name="bit13" val="0"/>
-      <a name="bit14" val="0"/>
-      <a name="bit15" val="0"/>
-      <a name="bit16" val="1"/>
-      <a name="bit17" val="1"/>
-      <a name="bit18" val="1"/>
-      <a name="bit19" val="1"/>
-      <a name="bit20" val="1"/>
-      <a name="bit21" val="1"/>
-      <a name="bit22" val="1"/>
-      <a name="bit23" val="1"/>
-      <a name="bit24" val="1"/>
-      <a name="bit25" val="1"/>
-      <a name="bit26" val="1"/>
-      <a name="bit27" val="1"/>
-      <a name="bit28" val="1"/>
-      <a name="bit29" val="1"/>
-      <a name="bit30" val="1"/>
-      <a name="bit31" val="1"/>
-    </comp>
-    <comp lib="0" loc="(110,70)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="X1"/>
-    </comp>
-    <comp lib="0" loc="(90,390)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="Z1"/>
-    </comp>
-    <comp lib="0" loc="(250,170)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Y0"/>
-    </comp>
-    <comp lib="0" loc="(60,520)" name="Tunnel">
-      <a name="width" val="32"/>
-      <a name="label" val="X1"/>
     </comp>
     <comp lib="0" loc="(70,520)" name="Splitter">
       <a name="fanout" val="2"/>
@@ -591,13 +532,57 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(550,530)" name="Tunnel">
+    <comp lib="9" loc="(380,290)" name="CLU4"/>
+    <comp lib="0" loc="(120,70)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="width" val="32"/>
-      <a name="label" val="Y0"/>
+      <a name="label" val="X1"/>
     </comp>
-    <comp lib="0" loc="(190,280)" name="Tunnel">
-      <a name="label" val="Pg"/>
+    <comp lib="0" loc="(60,570)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="X0"/>
+    </comp>
+    <comp lib="0" loc="(550,490)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Y1"/>
+    </comp>
+    <comp lib="0" loc="(540,490)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="2"/>
+      <a name="incoming" val="32"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="bit10" val="0"/>
+      <a name="bit11" val="0"/>
+      <a name="bit12" val="0"/>
+      <a name="bit13" val="0"/>
+      <a name="bit14" val="0"/>
+      <a name="bit15" val="0"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="1"/>
+      <a name="bit25" val="1"/>
+      <a name="bit26" val="1"/>
+      <a name="bit27" val="1"/>
+      <a name="bit28" val="1"/>
+      <a name="bit29" val="1"/>
+      <a name="bit30" val="1"/>
+      <a name="bit31" val="1"/>
     </comp>
     <comp lib="0" loc="(90,390)" name="Splitter">
       <a name="fanout" val="2"/>
@@ -635,20 +620,26 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="bit30" val="1"/>
       <a name="bit31" val="1"/>
     </comp>
-    <comp lib="0" loc="(470,100)" name="Tunnel">
-      <a name="label" val="C64"/>
+    <comp lib="0" loc="(470,40)" name="Tunnel">
+      <a name="label" val="Pg"/>
     </comp>
-    <comp lib="0" loc="(140,300)" name="Tunnel">
-      <a name="label" val="Gg"/>
-    </comp>
-    <comp lib="0" loc="(530,430)" name="Tunnel">
+    <comp lib="0" loc="(350,70)" name="Pin">
       <a name="facing" val="west"/>
-      <a name="label" val="Cin"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Z1"/>
     </comp>
-    <comp lib="0" loc="(260,170)" name="Tunnel">
+    <comp lib="0" loc="(120,170)" name="Tunnel">
       <a name="facing" val="west"/>
       <a name="width" val="32"/>
-      <a name="label" val="Y0"/>
+      <a name="label" val="Y1"/>
+    </comp>
+    <comp lib="0" loc="(190,280)" name="Tunnel">
+      <a name="label" val="Pg"/>
+    </comp>
+    <comp lib="0" loc="(340,170)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="Z0"/>
     </comp>
     <comp lib="0" loc="(70,570)" name="Splitter">
       <a name="fanout" val="2"/>
@@ -686,11 +677,20 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="bit30" val="1"/>
       <a name="bit31" val="1"/>
     </comp>
-    <comp lib="0" loc="(350,170)" name="Pin">
+    <comp lib="0" loc="(610,400)" name="Tunnel">
       <a name="facing" val="west"/>
-      <a name="output" val="true"/>
       <a name="width" val="32"/>
       <a name="label" val="Z0"/>
+    </comp>
+    <comp lib="0" loc="(110,170)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Y1"/>
+    </comp>
+    <comp lib="0" loc="(260,170)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="32"/>
+      <a name="label" val="Y0"/>
     </comp>
   </circuit>
 </project>
